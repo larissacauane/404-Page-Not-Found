@@ -11,7 +11,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 /*====== LOGO ======*/
@@ -48,7 +48,7 @@ main .page-content img{
     gap: 2.5rem;
 }
 
-.page-text h1, p, button{
+.page-text h1, p, a{
     font-family: 'Space Mono', monospace;
 }
 
@@ -65,20 +65,22 @@ main .page-content img{
 }
 
 /*======= BUTTON ======*/
-button{
+a{
     width: 45%;
     font-size: 1vw;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
     padding: 1rem;
     outline: none;
     border: none;
     background-color: #333333;
     color: white;
-    transition: ease-in-out .3s;
+    transition: ease-in-out .4s;
 }
 
-button:hover{
+a:hover{
     background-color: white;
     color: #333333;
     border: #333333 2px solid;
