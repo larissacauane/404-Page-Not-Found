@@ -7,81 +7,89 @@
     box-sizing: border-box;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+html{
+    /*10px / 16px = 0.625 = 62.5%
+    Porcentagem do font-size do browser do usuário*/
+    font-size: 62.5%;
 }
 
-/*====== LOGO ======*/
-main .logo{
-    align-self: flex-start;
-    font-family: 'Inconsolata', monospace;
+body{
+    font-family: "Space Mono", sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+/*=======================================*/
+/*HEADER SECTION*/
+/*=======================================*/
+.header{
+    padding: 3rem 9.6rem;
+    height: 8rem;
+}
+
+.logo{
+    font-family: "Inconsolata", sans-serif;
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 2.4rem;
     text-transform: uppercase;
-    margin-left: 8rem;
-    margin-top: 2rem;
+    letter-spacing: -0.5px;
     cursor: pointer;
-    color: #333333;
 }
 
-/*====== PAGE CONTAINER =======*/
-main .page-content{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5rem;
+/*=======================================*/
+/*HERO SECTION*/
+/*=======================================*/
+.section-hero{
+    padding: 6.5rem 0 9.6rem 0;
+    
+}
+
+.hero {
+    max-width: 120rem;
+    display: grid;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9.6rem;
+    align-items: center;
+}
+
+.hero-img{
     width: 100%;
 }
 
-/*====== IMAGE =======*/
-main .page-content img{
-    width: 40%;
+.heading-primary{
+    font-size: 5.5rem;
+    line-height: 1.6;
+    margin-bottom: 3.5rem;
+    letter-spacing: -0.5px;
 }
 
-/*====== TEXT =====*/
-.page-text{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
-}
-
-.page-text h1, p, a{
-    font-family: 'Space Mono', monospace;
-}
-
-.page-text h1{
-    font-size: 3vw;
-    font-weight: 700;
-    color: #333333;
-}
-
-.page-text p{
-    font-size: 1.5vw;
-    line-height: 1.4;
+.hero-description{
+    font-size: 2.3rem;
+    line-height: 1.2;
     color: #4F4F4F;
+    padding-right: 15rem;
+    margin-bottom: 5rem;
 }
 
-/*======= BUTTON ======*/
-a{
-    width: 45%;
-    font-size: 1vw;
-    font-weight: 700;
-    text-transform: uppercase;
+/*=======================================*/
+/*BUTTON SECTION*/
+/*=======================================*/
+.btn:link, .btn:visited{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
     text-decoration: none;
-    text-align: center;
-    padding: 1rem;
-    outline: none;
-    border: none;
-    background-color: #333333;
+    text-transform: uppercase;
+    padding: 1.6rem 2.5rem;
     color: white;
-    transition: ease-in-out .4s;
+    background-color: #333;
+    transition: background-color 0.5s;
 }
 
-a:hover{
+.btn:hover, .btn:active{
     background-color: white;
-    color: #333333;
-    border: #333333 2px solid;
+    color: #333;
+    box-shadow: inset 0 0 0 3px #333;
 }
