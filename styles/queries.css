@@ -1,0 +1,71 @@
+/*=======================================*/
+/*SIZE: 944px*/
+/*=======================================*/
+@media (max-width: 59em) {
+  html {
+    /* font-size: 7px; */
+    font-size: 44%;
+  }
+}
+
+/*=======================================*/
+/*SIZE: 768px*/
+/*=======================================*/
+@media (max-width: 48em) {
+  html {
+    /* font-size: 6px; */
+    font-size: 38%;
+  }
+
+  .hero {
+    padding: 0 2rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+}
+
+/*=======================================*/
+/*SIZE: 554px*/
+/*=======================================*/
+@media (max-width: 35em) {
+  html {
+    /* font-size: 5px; */
+    font-size: 32%;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.4rem;
+  }
+
+  .hero-text-box {
+    align-items: center;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  .btn:link,
+  .btn:visited {
+    margin-bottom: 1.8rem;
+  }
+}
+
+/*=======================================*/
+/*SIZE: 422px*/
+/*=======================================*/
+@media (max-width: 27em) {
+  html {
+    /* font-size: 4px; */
+    font-size: 25%;
+  }
+
+  .hero-title {
+    text-align: center;
+    font-size: 4.8rem;
+  }
+}
