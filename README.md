@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 
 ## 💻 Projeto
-Este projeto é um desafio do <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">devChallenge</a>. É possível acessar o projeto através <a href="https://upbeat-knuth-2fbb6a.netlify.app/">deste link</a>
+Este projeto é um desafio do <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">devChallenge</a>. É possível acessar o projeto através <a href="https://thriving-chaja-0b9c67.netlify.app/">deste link</a>
 
 
 ## ⚙ Como executar
